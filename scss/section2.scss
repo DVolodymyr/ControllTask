@@ -1,0 +1,31 @@
+@import "fonts.scss";
+.section2{
+background-color: #5474fd;
+  .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 33px 0;
+    .namePage{
+    color: #ffffff;
+    font-family: $JSR;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    }  
+    .menu_list a{
+      color: #ffffff;
+      font-family: $Aleo;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      list-style: none;
+      padding-left: 42px;
+      }  
+      .menu_list a:hover{
+        border-right: 5px solid #e4fd54;
+        font-size: 18px;
+      }
+  }
+}
