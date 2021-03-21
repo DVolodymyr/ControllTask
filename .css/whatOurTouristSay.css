@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.whatOurTouristSay {
+  background-image: url(../images/whatOurTouristSay.png);
+  background-size: cover;
+  padding: 120px 0 200px;
+}
+
+.whatOurTouristSay .conteiner {
+  padding: 0 30px;
+}
+
+.whatOurTouristSay .conteiner .title_whatOurTouristSay {
+  color: #ffffff;
+  font-family: "Aleo";
+  font-size: 36px;
+  margin-bottom: 95px;
+  text-align: center;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay .column1_whatOurTouristSay {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay .column1_whatOurTouristSay img {
+  width: 100%;
+  height: 100%;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay .column2_whatOurTouristSay {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
+  background: #333;
+  padding: 50px 60px;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay .column2_whatOurTouristSay .subtitle_whatOurTouristSay {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.whatOurTouristSay .conteiner .columns_whatOurTouristSay .column2_whatOurTouristSay .desc_whatOurTouristSay {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

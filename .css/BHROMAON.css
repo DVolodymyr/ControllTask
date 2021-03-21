@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.BHROMAON {
+  background-image: url(../images/BHROMAON.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.BHROMAON .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.BHROMAON .conteiner .title_BHROMAON {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 265px;
+}
+
+.BHROMAON .conteiner .subtitle_BHROMAON {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  margin: 15px 0 50px;
+}
+
+.BHROMAON .conteiner .formBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.BHROMAON .conteiner .formBtn .search .search_form {
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 500px;
+  min-height: 60px;
+  border: none;
+}
+
+.BHROMAON .conteiner .formBtn .button_BHROMAON {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 150px;
+  height: 62px;
+  border: 2px solid #fff;
+  background-color: #5474fd;
+  color: #fff;
+  font-family: "Aleo";
+  font-weight: 300;
+  text-align: center;
+  margin: 25px 0;
+  padding: 15px;
+}
+
+.BHROMAON .conteiner .formBtn .s {
+  margin-right: 10px;
+}
+
+.BHROMAON .conteiner .formBtn .button:hover {
+  width: 150px;
+  height: 62px;
+  color: #000;
+  background-color: #2e408d;
+}
+
+.BHROMAON .conteiner .formBtn .button:active {
+  color: #000;
+  background-color: #fd6d54;
+  cursor: pointer;
+}
+
+.BHROMAON .conteiner .scroll_Text {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 120px;
+}
+
+.BHROMAON .conteiner .scroll {
+  margin-bottom: 160px;
+}

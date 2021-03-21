@@ -1,14 +1,22 @@
 @import "fonts.scss";
+@media (max-width: 1200px) { }
+@media (max-width: 992px) { }
+@media (max-width: 768px) { }
+@media (min-width: 576px) { }
 
-.section1{
-background-image: url(../images/section1.png);
+.BHROMAON{
+background-image: url(../images/BHROMAON.png);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
 background-size: cover;
   .conteiner{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      .title_section1{
+      .title_BHROMAON{
         color: #ffffff;
         font-family: $JSB;
         font-size: 48px;
@@ -16,7 +24,7 @@ background-size: cover;
         line-height: 26px;
         margin-top: 265px;
       }
-      .subtitle{
+      .subtitle_BHROMAON{
         color: #ffffff;
         font-family: $JSR;
         font-size: 22px;
@@ -24,17 +32,16 @@ background-size: cover;
         font-style: normal;
         letter-spacing: normal;
         line-height: 26px;
-        margin-top: 15px;
+        margin: 15px 0 50px;
       }
-      .search{
+      .formBtn{
         display: flex;
+        justify-content: center;
+        align-items:center;
         flex-direction: row;
-        margin: 50px 0 120px 0;
-        & img{
-        width: 20px;
-        height: 20px;
-        }
-      .search_form{
+        flex-wrap: wrap;
+      .search{ 
+        .search_form{
         text-align: center;
         font-family:$JSR;
         color: #999999;
@@ -42,10 +49,14 @@ background-size: cover;
         font-weight: 400;
         line-height: 26px;
         width: 500px;
-        height: 60px;
+        min-height: 60px;
         border:none;
       }
-      .button_section1{
+    }
+    .button_BHROMAON{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       box-sizing: border-box;
       width: 150px;
       height: 62px;
@@ -55,19 +66,21 @@ background-size: cover;
       font-family: $Aleo;
       font-weight: 300;
       text-align: center;
+      margin: 25px 0;
       padding: 15px;
       }
-      .button_section1:hover{
-        width: 240px;
-        height: 65px;
-        color:#000;
-        background-color: #e4fd54;
-        }
-        .button_section1:active{
-        color:#000;
-        background-color: #fd6d54;
-        cursor: pointer;
-        }
+      .s{margin-right: 10px;}
+      .button:hover{
+      width: 150px;
+      height: 62px;
+      color:#000;
+      background-color: #2e408d;
+      }
+      .button:active{
+      color:#000;
+      background-color: #fd6d54;
+      cursor: pointer;
+      }
     }
     .scroll_Text{
       color: #ffffff;
@@ -75,9 +88,10 @@ background-size: cover;
       font-size: 14px;
       font-weight: 400;
       line-height: 26px;
+      margin-top: 120px;
     }
     .scroll{
-      margin-bottom: 135px;
+      margin-bottom: 160px;
     }
   }
 }

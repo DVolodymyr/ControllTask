@@ -1,12 +1,18 @@
 @import "fonts.scss";
-.section2{
+.menu{
 background-color: #5474fd;
+position: sticky;
+top: 0;
+z-index: 9999;
   .conteiner{
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    padding: 33px 0;
+    padding: 33px;
+    
     .namePage{
     color: #ffffff;
     font-family: $JSR;
@@ -22,10 +28,10 @@ background-color: #5474fd;
       line-height: 26px;
       list-style: none;
       padding-left: 42px;
+      text-decoration: none;
       }  
       .menu_list a:hover{
-        border-right: 5px solid #e4fd54;
-        font-size: 18px;
+      color:#e4fd54;
       }
   }
 }

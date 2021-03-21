@@ -1,0 +1,48 @@
+@import "fonts.scss";
+.articleR{
+background-image: url(../images/articleR.png);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  .conteiner{
+    padding: 230px 30px 100px 0;
+        .content_row_articleR{
+        display: flex;
+        .emptiness_articleR{
+        flex: 1 1 50%;
+        }
+        .explain_articleR{
+        flex:1 1 50%;
+        background-color: #232323;
+        opacity: 0.9;
+        padding:30px;
+        box-sizing: content-box;
+        .subtitle_articleR {
+        color: #e8e8e8;
+        font-family: $JSR;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        }
+        .title_articleR {
+        color: #ffffff;
+        font-family: $JSR;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 30px 0;
+        }
+        .desc_articleR{
+        color: #e8e8e8;
+        font-family:$JSR;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        }
+      }
+    }
+  }
+}

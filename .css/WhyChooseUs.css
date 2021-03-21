@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  color: #fff;
+  font-family: "Aleo";
+  font-weight: 300;
+  text-align: center;
+  padding: 23px 15px 15px 15px;
+  margin: 50px 0;
+}
+
+.button:hover {
+  width: 225px;
+  height: 60px;
+  color: #000;
+  background-color: #2e408d;
+}
+
+.button:active {
+  color: #000;
+  background-color: #fd6d54;
+  cursor: pointer;
+}
+
+.WhyChooseUs {
+  background: url(../images/WhyChooseUs.png) no-repeat center;
+  background-size: cover;
+  padding: 120px 30px;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column1_WhyChooseUs {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column1_WhyChooseUs .title_WhyChooseUs {
+  color: #ffffff;
+  font-family: "Aleo";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column1_WhyChooseUs .desc_WhyChooseUs {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 62px 0 48px 0;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column1_WhyChooseUs .button_WhyChooseUs {
+  width: 225px;
+  height: 60px;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column2_WhyChooseUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column2_WhyChooseUs .IMGcolumn1 img {
+  padding-right: 100px;
+}
+
+.WhyChooseUs .row_colums_WhyChooseUs .column2_WhyChooseUs .IMGcolumn2 img {
+  padding-right: 30px;
+}

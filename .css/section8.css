@@ -1,0 +1,17 @@
+.section8 {
+  height: 268px;
+  background-color: #232323;
+  background-size: cover;
+}
+
+.section8 .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

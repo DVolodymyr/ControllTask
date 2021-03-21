@@ -1,16 +1,17 @@
 @import "normalize.scss";
 @import "fonts.scss";
-@import "section1.scss";
-@import "section2.scss";
-@import "section3.scss";
-@import "section4.scss";
-@import "section5.scss";
-@import "section6.scss";
-@import "section7.scss";
-@import "section8.scss";
+@import "button.scss";
+@import "BHROMAON.scss";
+@import "menu.scss";
+@import "WhyChooseUs.scss";
+@import "arcsIcons.scss";
+@import "articleL.scss";
+@import "articleR.scss";
+@import "whatOurTouristSay.scss";
+@import "socialLinks.scss";
 
-
+  
 .conteiner{
-  max-width: 1117px;
+  max-width: 1200px;
   margin: 0 auto;
 }

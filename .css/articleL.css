@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.articleL {
+  background-image: url(../images/articleL.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.articleL .conteiner {
+  padding: 230px 0px 100px 30px;
+}
+
+.articleL .conteiner .content_row_articleL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.articleL .conteiner .content_row_articleL .emptiness_articleL {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.articleL .conteiner .content_row_articleL .explain_articleL {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 30px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.articleL .conteiner .content_row_articleL .explain_articleL .subtitle_articleL {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.articleL .conteiner .content_row_articleL .explain_articleL .title_articleL {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 30px 0;
+}
+
+.articleL .conteiner .content_row_articleL .explain_articleL .desc_articleL {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

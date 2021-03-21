@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.section4 {
+  height: 337px;
+  background-color: #333333;
+}
+
+.section4 .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section4 .conteiner p {
+  color: #e8e8e8;
+  font-family: "Aleo";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+}

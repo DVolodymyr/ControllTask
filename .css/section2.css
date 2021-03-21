@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+.menu {
+  background-color: #5474fd;
+}
+
+.menu .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 33px 0;
+}
+
+.menu .conteiner .namePage {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.menu .conteiner .menu_list a {
+  color: #ffffff;
+  font-family: "Aleo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  list-style: none;
+  padding-left: 42px;
+  text-decoration: none;
+}
+
+.menu .conteiner .menu_list a:hover {
+  color: #e4fd54;
+}
