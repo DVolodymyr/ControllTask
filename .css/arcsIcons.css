@@ -50,3 +50,10 @@
   line-height: 26px;
   margin-top: 15px;
 }
+
+.arcsIcons .dashes {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 1px dotted #ffffff;
+  opacity: 0.5;
+}
