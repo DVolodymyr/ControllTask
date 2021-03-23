@@ -6,9 +6,10 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   cursor: pointer;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
   height: 50px;
+  z-index: 9999999;
 }
 
 .burger:hover .bar {
@@ -35,28 +36,34 @@
   opacity: 0;
 }
 
-#check-menu:checked + .burger {
+#check-menu:checked ~ .burger {
   -webkit-transform: translate(-50%, -50%) rotatey(180deg);
           transform: translate(-50%, -50%) rotatey(180deg);
 }
 
-#check-menu:checked + .burger .bar {
+#check-menu:checked ~ .burger .bar {
   -webkit-transform: rotatey(180deg) rotatex(360deg);
           transform: rotatey(180deg) rotatex(360deg);
 }
 
-#check-menu:checked + .burger .bar:first-child {
+#check-menu:checked ~ .burger .bar:first-child {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   margin-top: 20px;
 }
 
-#check-menu:checked + .burger .bar:nth-child(2) {
+#check-menu:checked ~ .burger .bar:nth-child(2) {
   opacity: 0;
 }
 
-#check-menu:checked + .burger .bar:nth-child(3) {
+#check-menu:checked ~ .burger .bar:nth-child(3) {
   margin-top: -30px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .menu_list {
+  display: block;
+  visibility: visible;
+  right: 0;
 }

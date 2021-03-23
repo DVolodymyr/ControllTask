@@ -494,28 +494,6 @@ template {
   top: 0;
   z-index: 9999;
 }
-@media (max-width: 795px) {
-  .menu .burger {
-    display: block;
-  }
-  .menu .menu_list {
-    position: fixed;
-    top: 100px;
-    left: 50%;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: #d6d6d1;
-    transition: all 0.5s ease 0s;
-  }
-  .menu .menu_list a {
-    font-size: 25px;
-    line-height: 35px;
-  }
-}
 .menu .conteiner {
   display: flex;
   flex-direction: row;
@@ -543,6 +521,33 @@ template {
 .menu .conteiner .menu_list a:hover {
   color: #e4fd54;
 }
+@media (max-width: 795px) {
+  .menu .conteiner .menu_list {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 82px;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 30px 20px;
+    list-style: none;
+    text-align: center;
+    background-color: #5474fd;
+    transition: 0.4s ease;
+  }
+  .menu .conteiner .menu_list a {
+    display: block;
+    font-size: 24px;
+    padding: 10px 25px;
+  }
+}
+@media (max-width: 795px) {
+  .menu .burger {
+    display: block;
+  }
+}
 
 .burger {
   display: none;
@@ -551,8 +556,9 @@ template {
   left: 90%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
   height: 50px;
+  z-index: 9999999;
 }
 .burger:hover .bar {
   box-shadow: 1px 1px 7px 1px #000;
@@ -573,22 +579,28 @@ template {
   opacity: 0;
 }
 
-#check-menu:checked + .burger {
+#check-menu:checked ~ .burger {
   transform: translate(-50%, -50%) rotatey(180deg);
 }
-#check-menu:checked + .burger .bar {
+#check-menu:checked ~ .burger .bar {
   transform: rotatey(180deg) rotatex(360deg);
 }
-#check-menu:checked + .burger .bar:first-child {
+#check-menu:checked ~ .burger .bar:first-child {
   transform: rotate(-45deg);
   margin-top: 20px;
 }
-#check-menu:checked + .burger .bar:nth-child(2) {
+#check-menu:checked ~ .burger .bar:nth-child(2) {
   opacity: 0;
 }
-#check-menu:checked + .burger .bar:nth-child(3) {
+#check-menu:checked ~ .burger .bar:nth-child(3) {
   margin-top: -30px;
   transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .menu_list {
+  display: block;
+  visibility: visible;
+  right: 0;
 }
 
 .button {
