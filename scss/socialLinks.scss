@@ -26,7 +26,11 @@
   }
   .social_links{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  }
+
+  .social_links :not(:last-child){
+  padding-right: 25px;
   }
   .logo a svg:hover #facebook,
   .logo a svg:hover #twitter,

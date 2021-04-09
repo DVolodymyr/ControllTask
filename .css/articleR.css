@@ -62,3 +62,19 @@
   font-weight: 400;
   line-height: 26px;
 }
+
+@media (max-width: 575px) {
+  .articleR .conteiner .content_row_articleR {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .articleR .conteiner .content_row_articleR .explain_articleR {
+    margin: 0 0 0 30px;
+  }
+}
+
+@media (min-width: 319px) {
+  .articleR .conteiner .content_row_articleR .explain_articleR {
+    margin: 0 15px 0 15px;
+  }
+}

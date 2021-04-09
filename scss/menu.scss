@@ -22,13 +22,15 @@ z-index: 9999;
     font-weight: 700;
     line-height: 26px;
     }  
+    .menu_list{
+        margin-top:  -20px;
+    }
     .menu_list a{
     color: #ffffff;
     font-family: $Aleo;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    list-style: none;
     padding-left: 42px;
     text-decoration: none;
     }  
@@ -48,7 +50,7 @@ z-index: 9999;
   padding: 30px 20px;  
   list-style: none;
   text-align: center;
-  background-color: #5474fd;
+  background-color: #425ac9ea;
   transition: 0.4s ease;
   }
   .menu_list a{

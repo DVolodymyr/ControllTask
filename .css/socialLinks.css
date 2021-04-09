@@ -36,8 +36,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socialLinks .conteiner .social_links :not(:last-child) {
+  padding-right: 25px;
 }
 
 .socialLinks .conteiner .logo a svg:hover #facebook,

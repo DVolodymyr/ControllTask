@@ -4,7 +4,7 @@ background-image: url(../images/whatOurTouristSay.png);
 background-size: cover;
 padding: 120px 0 200px;
   .conteiner{
-    padding: 0 30px;
+    padding: 0 45px;
     .title_whatOurTouristSay{
       color: #ffffff;
       font-family: $Aleo;
@@ -14,17 +14,24 @@ padding: 120px 0 200px;
     }
     .columns_whatOurTouristSay{
     display: flex;
+      @media (max-width: 992px) {
+      flex-wrap: wrap;
+      }
       .column1_whatOurTouristSay{
         flex: 1 1 40%;
         & img{
         width: 100%;
         height: 100%;
+        object-fit: cover;
         }
-      }
+    }
       .column2_whatOurTouristSay{
         flex: 1 1 60%;
         background: #333;
         padding: 50px 60px;
+        @media (min-width: 320px){
+          padding: 30px;
+        }
         .subtitle_whatOurTouristSay {
         color: #e8e8e8;
         font-family: $JSR;
@@ -42,6 +49,6 @@ padding: 120px 0 200px;
         line-height: 26px;
         }
       }
-    } 
+    }
   }
 }

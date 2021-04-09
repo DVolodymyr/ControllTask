@@ -32,6 +32,17 @@
       }
     }
     .column2_WhyChooseUs{
+      @media (min-width: 320px) { 
+      .column2_WhyChooseUs{
+        justify-content: center;
+        align-content: center;
+      }
+      .cascad{
+        padding: 0;
+        margin: 0px 15px;
+        object-fit: cover;
+      }
+      }
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -44,6 +55,9 @@
       }
       }
 }
+}
+@media (max-width: 320px){
+
 }
 
 
